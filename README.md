@@ -1,0 +1,1 @@
+# rabbitMQ_string_Json_Example
