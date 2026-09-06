@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: rabbitMQ
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+rabbitmq:
+  queue:
+    json:
+      name: json_queue_for_demo
+    name: queue_for_demo
+  exchange:
+    name: exchange_for_demo
+  routing:
+    key:
+      json:
+        name: routing_key_for_json_demo
+      name: routing_key_for_demo
